@@ -60,11 +60,9 @@ npx @tarojs/cli init cj-miniapp
 
 由于前文我们没有在全局安装cli工具这里运行整个项目之前我们需要在项目中安装@tarojs/cli 才能顺利启动整个项目
 
-然后在项目根目录下运行
-
 ```
-yarn add @tarojs/cli -D
-yarn dev:weapp
+yarn add @tarojs/cli -D #添加cli
+yarn dev:weapp #启动项目
 ```
 
 编译完成后我们打开微信开发者工具，导入项目
@@ -75,9 +73,7 @@ yarn dev:weapp
 ![第一次运行](./init.png)
 
 
-按照国际惯例，我们肯定需要将这个页面改成helloworld
-
-打开vscode，导入项目
+按照国际惯例，我们肯定需要将这个页面改成helloworld。打开vscode，导入项目
 
 
 ![第一次运行](./helloworld.png)
@@ -87,5 +83,3 @@ yarn dev:weapp
 至此我们已经成功运行了我们的第一个小程序
 
 从下一章开始我们将会改造一下我们的项目，并正式的开始我们小程序的开发
-
-有兴趣的同学关注一下，每天都会有更新哦！
